@@ -40,6 +40,16 @@ export default function Landpage() {
                 <img src={iconMoney} alt="" />
             </div>
 
+            <div className='w-full flex justify-around m-6'>
+                <p className='text-4xl font-normal text-gray-500'>
+                    {`Como funciona a Plataforma Digital `}
+                    <span className='font-medium text-emerald-500'>Ape</span>
+                    <span className='font-medium text-gray-500'>Sol</span>
+                    ?
+                </p>
+            </div>
+
+
         </div>
     )
 }
