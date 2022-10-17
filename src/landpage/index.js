@@ -17,34 +17,28 @@ export default function Landpage() {
                 </div>
             </div>
             
-            <div className='classBackgroundImage' style={{ backgroundImage: `url(${paineis})` }} >
-                <p className='text-3xl lg:text-6xl md:text-5xl font-sans font-medium text-white'>
+            <div className='classBackgroundImage flex flex-col justify-center items-center lg:items-start lg:pl-10' style={{ backgroundImage: `url(${paineis})` }} >
+                <p className='mt-5 lg:pl-8 text-3xl lg:text-6xl md:text-5xl font-sans font-medium text-white'>
                     Sistemas de Energia Solar
                 </p>
-                <div className='h-fit w-fit rounded-md bg-black/30 p-3 my-8 flex flex-col justify-around'>
-                    <p className='classForWho text-emerald-300'>
+                <div className='relative w-full h-28 md:rounded-md bg-black/20 my-8 flex flex-col justify-center'>
+                    <p className='one absolute top-4 lg:top-0 classForWho text-emerald-300'>
                         para quem mora em apartamento
                     </p>
-                    <p className='classForWho text-emerald-400'>
+                    <p className='two absolute top-4 lg:top-0 classForWho text-emerald-400'>
                         para quem mora de aluguel
                     </p>
-                    <p className='classForWho text-emerald-500'>
-                        para quem não quer obras
-                    </p>                                 
+                    <p className='three absolute top-4 lg:top-0 classForWho text-emerald-300'>
+                        para quem não quer obras na residência
+                    </p>
                 </div>
             </div>
 
             <div className='w-full bg-emerald-900 flex flex-col justify-around py-4 md:flex-row'>
                 <div className='classResumeBox'>
-                    <img src={iconNoTools} className='h-10' alt="" />
-                    <span className='classResumeText'>
-                        Escolha uma Usina Compartilhada e instale seu sistema sem obras
-                    </span>
-                </div>
-                <div className='classResumeBox'>
                     <img src={iconLeaf} className='h-10' alt="" />
                     <span className='classResumeText'>
-                        Seja dono do seu sistema, venda ou aumente a potência quando quiser
+                        Escolha uma Usina Compartilhada para instalar seu sistema de energia solar
                     </span>
                 </div>
                 <div className='classResumeBox'>
@@ -52,7 +46,13 @@ export default function Landpage() {
                     <span className='classResumeText'>
                         Economize até 80% na sua conta de luz todos os meses
                     </span>
-                </div>                
+                </div>                 
+                <div className='classResumeBox'>
+                    <img src={iconNoTools} className='h-10' alt="" />
+                    <span className='classResumeText'>
+                        Venda suas cotas ou aumente seu sistema, sem obras na sua residência
+                    </span>
+                </div>               
             </div>
 
             <div className='m-6'>
