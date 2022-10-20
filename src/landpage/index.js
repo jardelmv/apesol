@@ -29,24 +29,27 @@ export default function Landpage() {
                         para quem mora de aluguel
                     </p>
                     <p className='three absolute top-4 lg:top-0 classForWho text-emerald-300'>
-                        para quem não quer obras na residência
+                        para quem tem baixo consumo
+                    </p>
+                    <p className='four absolute top-4 lg:top-0 classForWho text-emerald-300'>
+                        para grupos que querem economizar
                     </p>
                 </div>
             </div>
 
             <div className='w-full bg-emerald-900 flex flex-col justify-around py-4 md:flex-row'>
                 <div className='classResumeBox'>
-                    <img src={iconLeaf} className='h-10' alt="" />
-                    <span className='classResumeText'>
-                        Escolha uma Usina Compartilhada para instalar seu sistema de energia solar
-                    </span>
-                </div>
-                <div className='classResumeBox'>
-                    <img src={iconMoney} className='h-10' alt="" />
-                    <span className='classResumeText'>
-                        Economize até 80% na sua conta de luz todos os meses
+                    <img src={iconMoney} className='h-16' alt="" />
+                    <span className='classResumeText text-2xl'>
+                        Economize até 80% na sua conta de energia!
                     </span>
                 </div>                 
+                <div className='classResumeBox'>
+                    <img src={iconLeaf} className='h-10' alt="" />
+                    <span className='classResumeText'>
+                        Instale seu sistema de energia solar em uma Usina Compartilhada
+                    </span>
+                </div>
                 <div className='classResumeBox'>
                     <img src={iconNoTools} className='h-10' alt="" />
                     <span className='classResumeText'>

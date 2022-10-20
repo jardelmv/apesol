@@ -16,13 +16,13 @@
     0% {
       opacity: 0;
     }
-    5% {
+    3% {
       opacity: 1;
     }
-    28% {
+    22% {
       opacity: 1;
     }    
-    33% {
+    25% {
       opacity: 0;
     }
     100% {
@@ -32,15 +32,20 @@
   
   .one {
     opacity: 0;
-    animation: fade 9s infinite 0s;
+    animation: fade 12s infinite 0s;
   }
   
   .two {
     opacity: 0;
-    animation: fade 9s infinite 3s;
+    animation: fade 12s infinite 3s;
   }
 
   .three {
     opacity: 0;
-    animation: fade 9s infinite 6s;
+    animation: fade 12s infinite 6s;
+  }
+
+  .four {
+    opacity: 0;
+    animation: fade 12s infinite 9s;
   }
